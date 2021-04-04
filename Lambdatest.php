@@ -21,7 +21,7 @@ use PHPUnit\Framework\Assert;
 */
 
  # username: Username can be found at automation dashboard		
-    $LT_USERNAME = getenv("rachna10r");
+    $LT_USERNAME = getenv("rachna10r@gmail.com");
     
     # accessKey:  AccessKey can be generated from automation dashboard or profile section
     $LT_ACCESS_KEY = getenv("iHnnmi0atXDdjDKIqckdBH0gUU72Uf9zJb76EyNlXjzvGPzvv3");
