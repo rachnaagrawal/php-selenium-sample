@@ -33,13 +33,13 @@ use PHPUnit\Framework\Assert;
      $capabilities = array(
 		"build" => "Sample PHP Build",
 		"name" => "Sample PHP Test",
-		"platform" => env.LT_OPERATING_SYSTEM,
-		"browserName" => env.LT_BROWSER_NAME,
-		"version" => env.LT_BROWSER_VERSION
+		"platform" => "Windows 10",
+		"browserName" => "Chrome",
+		"version" => "87.0"
      );
      
       try{
-           $driver = RemoteWebDriver::create($host, $capabilities);
+           $driver = RemoteWebDriver::create($host, getenv(LT_BROWSERS));
         
         $driver->get("https://www.google.com/ncr");
       
