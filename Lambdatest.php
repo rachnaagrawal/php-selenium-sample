@@ -33,9 +33,9 @@ use PHPUnit\Framework\Assert;
      $capabilities = array(
 		"build" => "Sample PHP Build",
 		"name" => "Sample PHP Test",
-		"platform" => "Windows 10",
-		"browserName" => "Chrome",
-		"version" => "88.0"
+		"platform" => $LT_OPERATING_SYSTEM,
+		"browserName" => $LT_BROWSER_NAME,
+		"version" => $LT_BROWSER_VERSION
      );
      
       try{
