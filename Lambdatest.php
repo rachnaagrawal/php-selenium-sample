@@ -24,7 +24,7 @@ use PHPUnit\Framework\Assert;
     $LT_USERNAME = getenv("rachna10r@gmail.com");
     
     # accessKey:  AccessKey can be generated from automation dashboard or profile section
-    $LT_ACCESS_KEY = getenv("iHnnmi0atXDdjDKIqckdBH0gUU72Uf9zJb76EyNlXjzvGPzvv3");
+    $LT_ACCESS_KEY = getenv("z71l7Q9ohS9HhKiCqd690mH0sDu5AYrz8VSB0whO3mZ2JEkNAN");
 
     $host= "http://". $LT_USERNAME .":" . $LT_ACCESS_KEY ."@hub.lambdatest.com/wd/hub";
 
