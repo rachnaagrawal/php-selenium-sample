@@ -39,7 +39,7 @@ use PHPUnit\Framework\Assert;
      );
      
       try{
-           $driver = RemoteWebDriver::create($host, getenv(LT_BROWSERS));
+           $driver = RemoteWebDriver::create($host, getenv("LT_BROWSERS"));
         
         $driver->get("https://www.google.com/ncr");
       
